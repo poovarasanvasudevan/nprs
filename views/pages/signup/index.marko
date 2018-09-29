@@ -1,0 +1,49 @@
+<include('../layout/index.marko')>
+    <@body>
+            <div.col-md-12.full-height>
+                <div.row.full-height>
+                    <div.col-md-8.border-right>
+
+                    </div>
+                    <div.col-md-4.padding30>
+                        <div.row>
+                            <div.col-md-10.col-md-offset-1>
+                                <form.padding30#loginform>
+                                      <div class="ak-field-group">
+                                          <label for="username">Username</label>
+                                          <input
+                                                  type="text"
+                                                  class="ak-field-text ak-field__size-medium txt-full-width"
+                                                  id="username"
+                                                  name="username"
+                                                  placeholder="eg. you@yourcompany.com"
+                                          />
+                                      </div>
+
+                                      <div class="ak-field-group">
+                                          <label for="password">Password</label>
+                                          <input
+                                                  type="password"
+                                                  class="ak-field-password ak-field__size-medium txt-full-width"
+                                                  id="password"
+                                                  name="password"
+                                          />
+                                      </div>
+                                      <div class="ak-field-group">
+                                          <div.row>
+                                               <div.ak-field-checkbox.col-md-8>
+                                                     <input type="checkbox" name="option1" id="option1" value="option1" />
+                                                     <label for="option1">Keep me logged in</label>
+                                               </div>
+                                               <div.col-md-4><button class="ak-button ak-button__appearance-primary float-right">Log in</button></div>
+                                          </div>
+
+                                      </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </@body>
+</include>

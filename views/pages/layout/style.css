@@ -1,0 +1,11 @@
+
+.content {
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+.content.app {
+    padding-top: 45px;
+}

@@ -1,0 +1,13 @@
+<include('../../layout/index.marko')>
+    <@body>
+        <div>
+            <div.sticky key='header'>
+                <app-full-header showbutton=false />
+            </div>
+            <div.content.app>
+                <app-breadcrump breadcrump=[ { label:"Home" , link:"/" } , { label: "Parse" , link : "/pd/dashboard"}] />
+            </div>
+
+        </div>
+    </@body>
+</include>

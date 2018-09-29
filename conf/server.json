@@ -1,0 +1,10 @@
+{
+  "parseserver": {
+    "databaseURI" : "postgres://postgres:123Welcome@localhost:5432/nxtcore",
+    "appId": "myAppId",
+    "masterKey": "myMasterKey", // Keep this key secret!
+    "fileKey": "optionalFileKey",
+    "logLevel":"VERBOSE",
+    "serverURL": "http://localhost:3000/parse" // Don't forget to change to https if needed
+  }
+}
